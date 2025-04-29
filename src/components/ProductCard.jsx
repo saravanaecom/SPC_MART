@@ -580,9 +580,9 @@ const ProductCard = ({ get_fav_lists, product, isLoading, offerProducts, related
                   fontFamily: 'inherit',
                   fontWeight: 600,
                   border: '1px solid',
-                  borderColor: theme.palette.basecolorCode.main,
+                  borderColor:  theme.palette.shadowcolorCode.main,
                   backgroundColor: theme.palette.shadowcolorCode.main,
-                  color: theme.palette.basecolorCode.main,
+                  color:'#fff',
                   '&:hover': {
                     background: 'none',
                     border: '1px solid',
